@@ -117,36 +117,6 @@ const Reports = (props) => {
           </div>
         </div>
         <div className="accom-table justify-between p-4 bg-white mt-3 rounded-xl shadow-lg gap-3">
-          <div className="rich-editor mb-5">
-            <input
-              type="text"
-              id="messageA"
-              className="block mb-2 p-2.5 w-full text-sm text-gray-700 bg-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
-              placeholder="Title A"
-              ref={props.titleA}
-            />
-            <textarea
-              id="message"
-              rows="2"
-              className="pl-5 block p-2.5 w-full text-sm text-gray-700 bg-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
-              placeholder="Content for A"
-              ref={props.contentA}
-            ></textarea>
-            <input
-              type="text"
-              id="messageB"
-              className="block my-2 p-2.5 w-full text-sm text-gray-700 bg-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
-              placeholder="Title B"
-              ref={props.titleB}
-            />
-            <textarea
-              id="message"
-              rows="2"
-              className="pl-5 block p-2.5 w-full text-sm text-gray-700 bg-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
-              placeholder="Content for A"
-              ref={props.contentB}
-            ></textarea>
-          </div>
           <div className="justify-self-start mb-4">
             <div>
               <Datepicker setDate={setDate} date={date} />
