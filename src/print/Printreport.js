@@ -169,14 +169,7 @@ const Print = (props) => {
             )}
           </PrintContextConsumer>
         </ReactToPrint>
-        <ComponentToPrint
-          ref={ref}
-          forPrint={props.forPrint}
-          titleA={props.titleA.current.value}
-          titleB={props.titleB.current.value}
-          contentA={props.contentA.current.value}
-          contentB={props.contentB.current.value}
-        />
+        <ComponentToPrint ref={ref} forPrint={props.forPrint} />
       </div>
     </div>
   );
