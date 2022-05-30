@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/climbs-monitoring-system/static/css/main.2e92cd88.css",
-    "main.js": "/climbs-monitoring-system/static/js/main.fe9f1f83.js",
+    "main.js": "/climbs-monitoring-system/static/js/main.a8e6ada1.js",
     "index.html": "/climbs-monitoring-system/index.html",
     "main.2e92cd88.css.map": "/climbs-monitoring-system/static/css/main.2e92cd88.css.map",
-    "main.fe9f1f83.js.map": "/climbs-monitoring-system/static/js/main.fe9f1f83.js.map"
+    "main.a8e6ada1.js.map": "/climbs-monitoring-system/static/js/main.a8e6ada1.js.map"
   },
   "entrypoints": [
     "static/css/main.2e92cd88.css",
-    "static/js/main.fe9f1f83.js"
+    "static/js/main.a8e6ada1.js"
   ]
 }
