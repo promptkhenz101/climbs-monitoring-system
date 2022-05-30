@@ -16,7 +16,7 @@ const Monitoring = () => {
   const [accomUserList, setAccomUserList] = useState([]);
 
   var dateNow = new Date();
-  // dateNow.setDate(dateNow.getDate() + 1);
+  dateNow.setDate(dateNow.getDate() + 1);
   var d1 = dateNow.toISOString().split("T")[0];
   const [reportDate, setReportDate] = useState([d1, d1]);
   const [accomDate, setAccomDate] = useState([d1, d1]);
