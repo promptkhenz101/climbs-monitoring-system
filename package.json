@@ -1,8 +1,8 @@
 {
-  "homepage": "http://promptkhenz101.github.io/climbs-monitoring-system/",
   "name": "climbs-monitoring-system",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://promptkhenz101.github.io/climbs-monitoring-system/",
   "dependencies": {
     "@date-io/date-fns": "^2.14.0",
     "@emotion/react": "^11.9.0",
